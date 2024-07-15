@@ -1,0 +1,112 @@
+img {
+    width: 120px;
+    height: 80px;
+    border-radius: 50px;
+    float: left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+.navbar-nav .nav-item a.nav-link {
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: burlywood
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin-in {
+    color: burlywood;
+    font-size: 1.5em;
+}
+
+
+ @media only screen and (max-width:1152px) {}
+    .icons {
+        display: none;
+    } 
+@media only screen and (max-width:900px) {
+    .nav-link {
+        display: block;
+    }
+
+    
+
+    .nav-menu {
+            display: none;
+        }
+        .collapse {
+            display: block;
+        } */
+    .toggle-item {
+        color: aqua !important;
+        margin-right: 300px;
+    }
+
+    .toggle-item:active {
+        color: white !important;
+    }
+}
+
+
+
+
+.content {
+    background-image: url(images/images\ \(2\).jpg);
+    height: 1000px;
+    margin: 0px 0px 10px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h1.display-1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: brown;
+    font-weight: bold;
+
+
+}
+
+p.h6 {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25ox;
+    color: brown;
+    font-size: 40px;
+}
+
+.navbar img:hover {
+    font-weight: 500;
+    transform: scale(1.3);
+    transform: translateY(-5px);
+    transition: transform 0.5s ease;
+}
+
+.btn-primary {
+    background-color: burlywood;
+    border: burlywood;
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 2px solid brown;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: rgb(105, 47, 5);
+}
